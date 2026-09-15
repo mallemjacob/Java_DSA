@@ -1,0 +1,39 @@
+DSA IN JAVA
+------------
+1. Algorithms & Big-O
+2. Arrays
+3. Searching
+   ├── Linear Search
+   └── Binary Search
+
+4. Sorting
+   ├── Bubble Sort
+   ├── Selection Sort
+   └── Insertion Sort
+
+5. Linked Lists
+   ├── Singly Linked List
+   └── Doubly Linked List basics
+
+6. Stacks
+7. Queues
+
+8. Hash Tables
+   ├── HashMap
+   └── HashSet
+
+9. Recursion
+
+10. Trees
+    ├── Binary Trees
+    ├── Tree Traversals
+    └── Binary Search Trees
+
+11. Heaps / Priority Queues
+
+12. Graph Fundamentals
+    ├── Representation
+    ├── BFS
+    └── DFS
+
+13. Revision + Problem Solving
