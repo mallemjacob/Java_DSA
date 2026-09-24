@@ -5,6 +5,9 @@ public class BinarySearch {
       int high = arr.length - 1;
       int count = 0;
 
+      // {10,20,30,40,50,60,70}
+      
+
       while (low <= high) {
         count = count + 1;
         int mid = low + (high - low) / 2;
