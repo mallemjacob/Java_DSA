@@ -76,3 +76,14 @@ O(N^2) is also referred to as quadratic time.
 
 O(N2) is considered to be a relatively inefficient algorithm, since as the data
 increases, the steps increase dramatically.
+
+## A Quadratic Problem O(n^2)
+
+Check for duplicates: {1, 5, 3, 9, 1, 4}
+
+we perform an outer loop that must iterate N times to get through the entire array, and for each iteration, we must iterate another N times with our inner loop.
+`N steps * N steps = N^2 steps`
+
+## A Linear Solution O(N)
+
+Check for duplicates: {1, 5, 3, 9, 1, 4}
