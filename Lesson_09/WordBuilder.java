@@ -5,6 +5,7 @@ import java.util.Arrays;
 
 
 // inout --> {"a","b","c","d"} --->  4 * 4 ---> 16, 5 * 5 --> 25, 10 * 10 --> 100
+// 4 * 4 * 4
 
 
 // output --> ab, ac, ad,  ba, bc, bd  ca, cb, cd,  da, db, dc ---> 12
