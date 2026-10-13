@@ -7,6 +7,9 @@ public class BracketChecker {
   public static boolean isBalanced(String text) {
       Deque<Character> stack = new ArrayDeque<>();
 
+      // '{','[','(', ')',']','}'};
+
+
       for (char ch : text.toCharArray()){
 
         if (ch == '(' || ch == '{' || ch == '['){
@@ -16,8 +19,8 @@ public class BracketChecker {
           if (stack.isEmpty()){
             return false;
           }
-
-          char open = stack.pop();
+          
+          char open = stack.pop(); // open = '{',   ch = '}'
 
           if (ch == ')' && open != '(' || ch == '}' && open != '{' || ch == ']' && open != '['){
             return false;
@@ -38,6 +41,5 @@ public class BracketChecker {
   }  
  }
 
-
-
-
+// Effeciency = O(1)
+// Bracket checker = O(N)

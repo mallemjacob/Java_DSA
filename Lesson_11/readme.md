@@ -1,4 +1,4 @@
-# Stacks and Queues -- arrays
+# Stacks and Queues -- arrays, linkedlists
 
 1. They’re simply arrays with restrictions.
 2. They're elegant tools for handling temporary data.
@@ -35,7 +35,7 @@ Note that we’re always adding data to the top (that is, the end) of the stack.
 If we wanted to insert the 0 into the bottom or middle of the stack, we couldn’t,
 because that’s the nature of a stack: data can only be added to the top.
 
-2. Removing elements from the top of the stack is called `popping from the stack`.
+1. Removing elements from the top of the stack is called `popping from the stack`.
    Because of a stack’s restrictions, we can only pop data from the top.
 
 ```

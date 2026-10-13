@@ -42,7 +42,5 @@ public class StackDemo {
     // //Read
     // System.out.println("Peek: " + stack.peek());
 
-
-
   }
 }
