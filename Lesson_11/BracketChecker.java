@@ -28,6 +28,7 @@ public class BracketChecker {
 
         }
       }
+      
       return stack.isEmpty();
 
   }
