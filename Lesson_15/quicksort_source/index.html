@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Interactive Quick Sort visualization with a clickable pivot and step-by-step Lomuto partitioning." />
+  <title>Quick Sort — Interactive Walkthrough</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> ALGORITHM STUDIO <span class="eyebrow-sep">/</span> VISUAL LEARNING</div>
+        <h1>Quick Sort<span class="title-period">.</span> <span class="title-muted">Every move, explained.</span></h1>
+        <p>Choose a pivot, watch the comparisons and swaps, and see how each partition falls into place. You control every step.</p>
+      </div>
+      <div class="algorithm-pill"><span class="pill-icon">{ }</span><span>LOMUTO PARTITION<br><strong>Interactive walkthrough</strong></span></div>
+    </header>
+
+    <main class="dashboard">
+      <section class="workspace panel" aria-labelledby="arrayHeading">
+        <div class="workspace-heading">
+          <div>
+            <div class="section-kicker">01 / THE ARRAY</div>
+            <h2 id="arrayHeading">Partition playground</h2>
+          </div>
+          <div class="step-chip" id="stepChip">AWAITING PIVOT</div>
+        </div>
+
+        <div class="array-helper"><span class="gesture-icon">↗</span> <span id="arrayHint">Click any number to make it the first pivot.</span></div>
+        <div class="array-scroll" aria-label="Interactive numbers. Click an element to choose the pivot or advance a step.">
+          <div id="arrayTrack" class="array-track"></div>
+        </div>
+        <div class="array-footer">
+          <span id="rangeLabel">Active range: entire array</span>
+          <span id="sortedLabel">0 sorted</span>
+        </div>
+
+        <div class="legend" aria-label="Array color key">
+          <span><i class="legend-dot pivot"></i> Pivot</span>
+          <span><i class="legend-dot compare"></i> Comparing</span>
+          <span><i class="legend-dot swap"></i> Swapping</span>
+          <span><i class="legend-dot sorted"></i> Sorted</span>
+        </div>
+
+        <div class="explanation" aria-live="polite">
+          <div class="explanation-head"><span id="eventLabel">READY TO BEGIN</span><span id="depthLabel">DEPTH 0</span></div>
+          <h3 id="eventTitle">Pick your first pivot</h3>
+          <p id="eventDetail">Click any numbered bar. Quick Sort will move that value to the end of the current range, partition the array around it, then recursively sort the remaining sections.</p>
+        </div>
+
+        <div class="player">
+          <div class="progress-top"><label for="scrubber">Walkthrough progress</label><span id="progressText">Step 0 of 0</span></div>
+          <input type="range" id="scrubber" min="0" max="0" value="0" disabled aria-label="Jump to a walkthrough step" />
+          <div class="player-buttons">
+            <button type="button" id="prevBtn" class="button button-ghost" disabled><span aria-hidden="true">←</span> Previous</button>
+            <button type="button" id="nextBtn" class="button button-primary" disabled>Next move <span aria-hidden="true">→</span></button>
+            <button type="button" id="playBtn" class="button button-ghost" disabled>▶ Auto play</button>
+            <button type="button" id="resetBtn" class="button button-ghost">↺ Reset</button>
+          </div>
+          <div class="speed-row"><label for="speed">Playback speed</label><input type="range" id="speed" min="300" max="1700" value="900" step="100" aria-label="Playback speed, faster on the right" /><div class="speed-endpoints"><span>Slow</span><span>Fast</span></div></div>
+        </div>
+      </section>
+
+      <aside class="sidebar">
+        <section class="panel setup-panel" aria-labelledby="setupHeading">
+          <div class="section-kicker">02 / CUSTOMIZE</div>
+          <h2 id="setupHeading">Your input</h2>
+          <label class="field-label" for="numbersInput">Numbers (4–12 values)</label>
+          <input id="numbersInput" type="text" spellcheck="false" autocomplete="off" value="42, 17, 68, 9, 53, 26, 74, 31, 12" />
+          <div class="setup-buttons"><button class="button button-outline" type="button" id="applyBtn">Use these numbers</button><button class="button button-outline" type="button" id="shuffleBtn">⤨ Shuffle</button></div>
+          <p id="inputError" class="input-error" role="alert" hidden></p>
+          <p class="small-note">Tip: You choose the first pivot. The recursive partitions use their rightmost element as pivot.</p>
+        </section>
+
+        <section class="panel metrics-panel" aria-labelledby="metricsHeading">
+          <div class="section-kicker">03 / LIVE STATS</div>
+          <h2 id="metricsHeading">Algorithm activity</h2>
+          <div class="metrics-grid">
+            <div><strong id="comparisonCount">0</strong><span>Comparisons</span></div>
+            <div><strong id="swapCount">0</strong><span>Swaps</span></div>
+            <div><strong id="partitionCount">0</strong><span>Partitions</span></div>
+            <div><strong id="fixedCount">0</strong><span>Sorted values</span></div>
+          </div>
+        </section>
+
+        <section class="panel code-panel" aria-labelledby="codeHeading">
+          <div class="section-kicker">04 / UNDER THE HOOD</div>
+          <h2 id="codeHeading">The logic</h2>
+          <div class="code-window"><div class="code-caption"><span class="code-leds"><i></i><i></i><i></i></span> quicksort.pseudo</div><div class="code-lines" id="codeLines"><div data-code="start">quickSort(A, low, high):</div><div data-code="pivot">  pivot = A[high]</div><div data-code="setup">  i = low - 1</div><div data-code="compare">  for j = low to high - 1:</div><div data-code="test">    if A[j] ≤ pivot:</div><div data-code="swap">      i++; swap(A[i], A[j])</div><div data-code="lock">  swap(A[i + 1], A[high])</div><div data-code="recurse">  quickSort(left)</div><div data-code="recurse">  quickSort(right)</div></div></div>
+        </section>
+      </aside>
+    </main>
+    <footer>Quick Sort · Average <span>O(n log n)</span> · Worst <span>O(n²)</span> · In-place, not stable</footer>
+  </div>
+</body>
+</html>
