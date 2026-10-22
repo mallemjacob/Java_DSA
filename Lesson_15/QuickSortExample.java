@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class QuickSortExample {
 
-
+  // O(log n)
   public static void quicksort(int[] arr, int low, int high) { // arr, low = 0, high = 6
       if (low < high){
 
@@ -21,7 +21,7 @@ public class QuickSortExample {
       }
   }
 
-
+ //  O(n)
   public static int partition(int[] arr, int low, int high) { // arr, low = 0, high = 6
       
       int pivot = arr[high]; // arr[6] = 2; pivot = 2
@@ -58,7 +58,6 @@ public class QuickSortExample {
       int[] arr = {8, 3, 1, 7, 0, 10, 2};
 
       quicksort(arr, 0, arr.length - 1);
-
 
       System.out.println(Arrays.toString(arr));
   }

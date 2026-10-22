@@ -34,3 +34,23 @@ To partition an array is to take a random value from the array—which is then
 called the pivot—and make sure that every number that is less than the pivot
 ends up to the left of the pivot and that every number greater than the pivot
 ends up to the right of the pivot.
+
+## The Efficiency of Quicksort
+
+Best case = O(n log n)
+Average case = O(n log n)
+Worst case = O(n²)
+
+To figure out the efficiency of Quicksort, let’s first determine the efficiency of
+a single partition.
+A partition involves two primary types of steps:
+• Comparisons: We compare each of the values at hand to the pivot.
+• Swaps: When appropriate, we swap the values being pointed to by the
+left and right pointers.
+
+Each partition has at least N comparisons—that is, we compare each element
+of the array with the pivot.
+
+Partition = O(n)
+
+8 --> 4 --> 2 --> 1
