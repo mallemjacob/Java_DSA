@@ -1,0 +1,1080 @@
+[
+  {
+    "folder": "Lesson_01",
+    "chapter": 3,
+    "images": [
+      {
+        "path": "assets/Lesson_01/Big-O.png",
+        "name": "Big-O.png"
+      }
+    ],
+    "notes": [
+      {
+        "path": "assets/Lesson_01/Notes.md",
+        "name": "Notes.md"
+      }
+    ],
+    "java": []
+  },
+  {
+    "folder": "Lesson_02",
+    "chapter": 1,
+    "images": [
+      {
+        "path": "assets/Lesson_02/arrays/1.reading/01.png",
+        "name": "arrays/1.reading/01.png"
+      },
+      {
+        "path": "assets/Lesson_02/arrays/1.reading/02.png",
+        "name": "arrays/1.reading/02.png"
+      },
+      {
+        "path": "assets/Lesson_02/arrays/1.reading/03.png",
+        "name": "arrays/1.reading/03.png"
+      },
+      {
+        "path": "assets/Lesson_02/arrays/1.reading/04.png",
+        "name": "arrays/1.reading/04.png"
+      },
+      {
+        "path": "assets/Lesson_02/arrays/2.searching/01.png",
+        "name": "arrays/2.searching/01.png"
+      },
+      {
+        "path": "assets/Lesson_02/arrays/2.searching/02.png",
+        "name": "arrays/2.searching/02.png"
+      },
+      {
+        "path": "assets/Lesson_02/arrays/3.insertion/01.png",
+        "name": "arrays/3.insertion/01.png"
+      },
+      {
+        "path": "assets/Lesson_02/arrays/3.insertion/02.png",
+        "name": "arrays/3.insertion/02.png"
+      },
+      {
+        "path": "assets/Lesson_02/arrays/3.insertion/03_1.png",
+        "name": "arrays/3.insertion/03_1.png"
+      },
+      {
+        "path": "assets/Lesson_02/arrays/3.insertion/03_2.png",
+        "name": "arrays/3.insertion/03_2.png"
+      },
+      {
+        "path": "assets/Lesson_02/arrays/4.deletion/01.png",
+        "name": "arrays/4.deletion/01.png"
+      },
+      {
+        "path": "assets/Lesson_02/arrays/4.deletion/02.png",
+        "name": "arrays/4.deletion/02.png"
+      }
+    ],
+    "notes": [
+      {
+        "path": "assets/Lesson_02/arrays/notes.md",
+        "name": "arrays/notes.md"
+      },
+      {
+        "path": "assets/Lesson_02/notes.md",
+        "name": "notes.md"
+      }
+    ],
+    "java": [
+      {
+        "path": "assets/Lesson_02/arrays/Deletion.java",
+        "name": "arrays/Deletion.java"
+      },
+      {
+        "path": "assets/Lesson_02/arrays/Insertion.java",
+        "name": "arrays/Insertion.java"
+      },
+      {
+        "path": "assets/Lesson_02/arrays/Reading.java",
+        "name": "arrays/Reading.java"
+      },
+      {
+        "path": "assets/Lesson_02/arrays/Searching.java",
+        "name": "arrays/Searching.java"
+      }
+    ]
+  },
+  {
+    "folder": "Lesson_03",
+    "chapter": 2,
+    "images": [
+      {
+        "path": "assets/Lesson_03/01.png",
+        "name": "01.png"
+      },
+      {
+        "path": "assets/Lesson_03/02.png",
+        "name": "02.png"
+      },
+      {
+        "path": "assets/Lesson_03/03.png",
+        "name": "03.png"
+      },
+      {
+        "path": "assets/Lesson_03/04.png",
+        "name": "04.png"
+      },
+      {
+        "path": "assets/Lesson_03/05.png",
+        "name": "05.png"
+      },
+      {
+        "path": "assets/Lesson_03/06.png",
+        "name": "06.png"
+      },
+      {
+        "path": "assets/Lesson_03/07.png",
+        "name": "07.png"
+      },
+      {
+        "path": "assets/Lesson_03/08.png",
+        "name": "08.png"
+      },
+      {
+        "path": "assets/Lesson_03/09.png",
+        "name": "09.png"
+      },
+      {
+        "path": "assets/Lesson_03/10.png",
+        "name": "10.png"
+      }
+    ],
+    "notes": [
+      {
+        "path": "assets/Lesson_03/ordered_arrays.md",
+        "name": "ordered_arrays.md"
+      },
+      {
+        "path": "assets/Lesson_03/searching.md",
+        "name": "searching.md"
+      }
+    ],
+    "java": [
+      {
+        "path": "assets/Lesson_03/ArrayLists.java",
+        "name": "ArrayLists.java"
+      },
+      {
+        "path": "assets/Lesson_03/LinearSearch.java",
+        "name": "LinearSearch.java"
+      }
+    ]
+  },
+  {
+    "folder": "Lesson_04",
+    "chapter": 2,
+    "images": [
+      {
+        "path": "assets/Lesson_04/Screenshot From 2026-09-23 19-46-45.png",
+        "name": "Screenshot From 2026-09-23 19-46-45.png"
+      },
+      {
+        "path": "assets/Lesson_04/Screenshot From 2026-09-23 19-48-20.png",
+        "name": "Screenshot From 2026-09-23 19-48-20.png"
+      },
+      {
+        "path": "assets/Lesson_04/Screenshot From 2026-09-23 19-48-52.png",
+        "name": "Screenshot From 2026-09-23 19-48-52.png"
+      },
+      {
+        "path": "assets/Lesson_04/Screenshot From 2026-09-23 19-49-06.png",
+        "name": "Screenshot From 2026-09-23 19-49-06.png"
+      },
+      {
+        "path": "assets/Lesson_04/Screenshot From 2026-09-23 19-49-17.png",
+        "name": "Screenshot From 2026-09-23 19-49-17.png"
+      },
+      {
+        "path": "assets/Lesson_04/Screenshot From 2026-09-23 19-52-23.png",
+        "name": "Screenshot From 2026-09-23 19-52-23.png"
+      },
+      {
+        "path": "assets/Lesson_04/Screenshot From 2026-09-23 19-52-31.png",
+        "name": "Screenshot From 2026-09-23 19-52-31.png"
+      },
+      {
+        "path": "assets/Lesson_04/Screenshot From 2026-09-23 19-54-09.png",
+        "name": "Screenshot From 2026-09-23 19-54-09.png"
+      }
+    ],
+    "notes": [
+      {
+        "path": "assets/Lesson_04/readme.md",
+        "name": "readme.md"
+      }
+    ],
+    "java": [
+      {
+        "path": "assets/Lesson_04/BinarySearch.java",
+        "name": "BinarySearch.java"
+      }
+    ]
+  },
+  {
+    "folder": "Lesson_05",
+    "chapter": 3,
+    "images": [
+      {
+        "path": "assets/Lesson_05/01.png",
+        "name": "01.png"
+      },
+      {
+        "path": "assets/Lesson_05/02.png",
+        "name": "02.png"
+      },
+      {
+        "path": "assets/Lesson_05/03.png",
+        "name": "03.png"
+      },
+      {
+        "path": "assets/Lesson_05/04.png",
+        "name": "04.png"
+      }
+    ],
+    "notes": [
+      {
+        "path": "assets/Lesson_05/readme.md",
+        "name": "readme.md"
+      }
+    ],
+    "java": [
+      {
+        "path": "assets/Lesson_05/LeapYear.java",
+        "name": "LeapYear.java"
+      },
+      {
+        "path": "assets/Lesson_05/Main.java",
+        "name": "Main.java"
+      },
+      {
+        "path": "assets/Lesson_05/Prime.java",
+        "name": "Prime.java"
+      },
+      {
+        "path": "assets/Lesson_05/Sum.java",
+        "name": "Sum.java"
+      }
+    ]
+  },
+  {
+    "folder": "Lesson_06",
+    "chapter": 4,
+    "images": [
+      {
+        "path": "assets/Lesson_06/01.png",
+        "name": "01.png"
+      },
+      {
+        "path": "assets/Lesson_06/02.png",
+        "name": "02.png"
+      },
+      {
+        "path": "assets/Lesson_06/03.png",
+        "name": "03.png"
+      },
+      {
+        "path": "assets/Lesson_06/04.png",
+        "name": "04.png"
+      },
+      {
+        "path": "assets/Lesson_06/05.png",
+        "name": "05.png"
+      },
+      {
+        "path": "assets/Lesson_06/complete_example/00.png",
+        "name": "complete_example/00.png"
+      },
+      {
+        "path": "assets/Lesson_06/complete_example/01.png",
+        "name": "complete_example/01.png"
+      },
+      {
+        "path": "assets/Lesson_06/complete_example/02.png",
+        "name": "complete_example/02.png"
+      },
+      {
+        "path": "assets/Lesson_06/complete_example/03.png",
+        "name": "complete_example/03.png"
+      },
+      {
+        "path": "assets/Lesson_06/complete_example/04.png",
+        "name": "complete_example/04.png"
+      },
+      {
+        "path": "assets/Lesson_06/complete_example/05.png",
+        "name": "complete_example/05.png"
+      },
+      {
+        "path": "assets/Lesson_06/complete_example/06.png",
+        "name": "complete_example/06.png"
+      },
+      {
+        "path": "assets/Lesson_06/complete_example/07.png",
+        "name": "complete_example/07.png"
+      },
+      {
+        "path": "assets/Lesson_06/complete_example/08.png",
+        "name": "complete_example/08.png"
+      },
+      {
+        "path": "assets/Lesson_06/complete_example/09.png",
+        "name": "complete_example/09.png"
+      },
+      {
+        "path": "assets/Lesson_06/complete_example/10.png",
+        "name": "complete_example/10.png"
+      },
+      {
+        "path": "assets/Lesson_06/complete_example/11.png",
+        "name": "complete_example/11.png"
+      },
+      {
+        "path": "assets/Lesson_06/complete_example/12.png",
+        "name": "complete_example/12.png"
+      },
+      {
+        "path": "assets/Lesson_06/complete_example/13.png",
+        "name": "complete_example/13.png"
+      },
+      {
+        "path": "assets/Lesson_06/complete_example/14.png",
+        "name": "complete_example/14.png"
+      },
+      {
+        "path": "assets/Lesson_06/complete_example/15.png",
+        "name": "complete_example/15.png"
+      },
+      {
+        "path": "assets/Lesson_06/complete_example/16.png",
+        "name": "complete_example/16.png"
+      },
+      {
+        "path": "assets/Lesson_06/complete_example/17.png",
+        "name": "complete_example/17.png"
+      }
+    ],
+    "notes": [
+      {
+        "path": "assets/Lesson_06/complete_example/readme.md",
+        "name": "complete_example/readme.md"
+      },
+      {
+        "path": "assets/Lesson_06/readme.md",
+        "name": "readme.md"
+      }
+    ],
+    "java": [
+      {
+        "path": "assets/Lesson_06/BubbleSort.java",
+        "name": "BubbleSort.java"
+      },
+      {
+        "path": "assets/Lesson_06/DuplicateCheck.java",
+        "name": "DuplicateCheck.java"
+      },
+      {
+        "path": "assets/Lesson_06/LinearDupCheck.java",
+        "name": "LinearDupCheck.java"
+      }
+    ]
+  },
+  {
+    "folder": "Lesson_07",
+    "chapter": 5,
+    "images": [
+      {
+        "path": "assets/Lesson_07/01.png",
+        "name": "01.png"
+      },
+      {
+        "path": "assets/Lesson_07/02.png",
+        "name": "02.png"
+      },
+      {
+        "path": "assets/Lesson_07/03.png",
+        "name": "03.png"
+      },
+      {
+        "path": "assets/Lesson_07/04.png",
+        "name": "04.png"
+      },
+      {
+        "path": "assets/Lesson_07/05.png",
+        "name": "05.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/00.png",
+        "name": "complete_example/00.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/01.png",
+        "name": "complete_example/01.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/02.png",
+        "name": "complete_example/02.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/03.png",
+        "name": "complete_example/03.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/04.png",
+        "name": "complete_example/04.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/05.png",
+        "name": "complete_example/05.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/06.png",
+        "name": "complete_example/06.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/07.png",
+        "name": "complete_example/07.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/08.png",
+        "name": "complete_example/08.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/09.png",
+        "name": "complete_example/09.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/10.png",
+        "name": "complete_example/10.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/11.png",
+        "name": "complete_example/11.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/12.png",
+        "name": "complete_example/12.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/13.png",
+        "name": "complete_example/13.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/14.png",
+        "name": "complete_example/14.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/15.png",
+        "name": "complete_example/15.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/16.png",
+        "name": "complete_example/16.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/17.png",
+        "name": "complete_example/17.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/18.png",
+        "name": "complete_example/18.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/19.png",
+        "name": "complete_example/19.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/20.png",
+        "name": "complete_example/20.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/21.png",
+        "name": "complete_example/21.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/22.png",
+        "name": "complete_example/22.png"
+      },
+      {
+        "path": "assets/Lesson_07/complete_example/23.png",
+        "name": "complete_example/23.png"
+      }
+    ],
+    "notes": [
+      {
+        "path": "assets/Lesson_07/complete_example/example.md",
+        "name": "complete_example/example.md"
+      },
+      {
+        "path": "assets/Lesson_07/readme.md",
+        "name": "readme.md"
+      }
+    ],
+    "java": [
+      {
+        "path": "assets/Lesson_07/complete_example/SelectionSort.java",
+        "name": "complete_example/SelectionSort.java"
+      }
+    ]
+  },
+  {
+    "folder": "Lesson_08",
+    "chapter": 6,
+    "images": [
+      {
+        "path": "assets/Lesson_08/01.png",
+        "name": "01.png"
+      },
+      {
+        "path": "assets/Lesson_08/02.png",
+        "name": "02.png"
+      },
+      {
+        "path": "assets/Lesson_08/03.png",
+        "name": "03.png"
+      },
+      {
+        "path": "assets/Lesson_08/04.png",
+        "name": "04.png"
+      },
+      {
+        "path": "assets/Lesson_08/05.png",
+        "name": "05.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/00.png",
+        "name": "complete_example/00.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/01.png",
+        "name": "complete_example/01.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/02.png",
+        "name": "complete_example/02.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/03.png",
+        "name": "complete_example/03.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/04.png",
+        "name": "complete_example/04.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/05.png",
+        "name": "complete_example/05.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/06.png",
+        "name": "complete_example/06.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/07.png",
+        "name": "complete_example/07.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/08.png",
+        "name": "complete_example/08.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/09.png",
+        "name": "complete_example/09.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/10.png",
+        "name": "complete_example/10.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/11.png",
+        "name": "complete_example/11.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/12.png",
+        "name": "complete_example/12.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/13.png",
+        "name": "complete_example/13.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/14.png",
+        "name": "complete_example/14.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/15.png",
+        "name": "complete_example/15.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/16.png",
+        "name": "complete_example/16.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/17.png",
+        "name": "complete_example/17.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/18.png",
+        "name": "complete_example/18.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/19.png",
+        "name": "complete_example/19.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/20.png",
+        "name": "complete_example/20.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/21.png",
+        "name": "complete_example/21.png"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/22.png",
+        "name": "complete_example/22.png"
+      }
+    ],
+    "notes": [
+      {
+        "path": "assets/Lesson_08/readme.md",
+        "name": "readme.md"
+      }
+    ],
+    "java": [
+      {
+        "path": "assets/Lesson_08/Main.java",
+        "name": "Main.java"
+      },
+      {
+        "path": "assets/Lesson_08/complete_example/InsertionSort.java",
+        "name": "complete_example/InsertionSort.java"
+      }
+    ]
+  },
+  {
+    "folder": "Lesson_09",
+    "chapter": 7,
+    "images": [
+      {
+        "path": "assets/Lesson_09/01.png",
+        "name": "01.png"
+      }
+    ],
+    "notes": [
+      {
+        "path": "assets/Lesson_09/readme.md",
+        "name": "readme.md"
+      }
+    ],
+    "java": [
+      {
+        "path": "assets/Lesson_09/MeanAverage.java",
+        "name": "MeanAverage.java"
+      },
+      {
+        "path": "assets/Lesson_09/WordBuilder.java",
+        "name": "WordBuilder.java"
+      }
+    ]
+  },
+  {
+    "folder": "Lesson_10",
+    "chapter": 8,
+    "images": [
+      {
+        "path": "assets/Lesson_10/01.png",
+        "name": "01.png"
+      },
+      {
+        "path": "assets/Lesson_10/02.png",
+        "name": "02.png"
+      },
+      {
+        "path": "assets/Lesson_10/03.png",
+        "name": "03.png"
+      },
+      {
+        "path": "assets/Lesson_10/04.png",
+        "name": "04.png"
+      },
+      {
+        "path": "assets/Lesson_10/05.png",
+        "name": "05.png"
+      },
+      {
+        "path": "assets/Lesson_10/06.png",
+        "name": "06.png"
+      },
+      {
+        "path": "assets/Lesson_10/07.png",
+        "name": "07.png"
+      }
+    ],
+    "notes": [
+      {
+        "path": "assets/Lesson_10/readme.md",
+        "name": "readme.md"
+      }
+    ],
+    "java": [
+      {
+        "path": "assets/Lesson_10/HashMapIndex.java",
+        "name": "HashMapIndex.java"
+      },
+      {
+        "path": "assets/Lesson_10/HashMapMenu.java",
+        "name": "HashMapMenu.java"
+      }
+    ]
+  },
+  {
+    "folder": "Lesson_11",
+    "chapter": 9,
+    "images": [
+      {
+        "path": "assets/Lesson_11/01.png",
+        "name": "01.png"
+      },
+      {
+        "path": "assets/Lesson_11/02.png",
+        "name": "02.png"
+      },
+      {
+        "path": "assets/Lesson_11/03.png",
+        "name": "03.png"
+      },
+      {
+        "path": "assets/Lesson_11/04.png",
+        "name": "04.png"
+      },
+      {
+        "path": "assets/Lesson_11/05.png",
+        "name": "05.png"
+      },
+      {
+        "path": "assets/Lesson_11/06.png",
+        "name": "06.png"
+      },
+      {
+        "path": "assets/Lesson_11/07.png",
+        "name": "07.png"
+      },
+      {
+        "path": "assets/Lesson_11/08.png",
+        "name": "08.png"
+      },
+      {
+        "path": "assets/Lesson_11/09.png",
+        "name": "09.png"
+      },
+      {
+        "path": "assets/Lesson_11/10.png",
+        "name": "10.png"
+      }
+    ],
+    "notes": [
+      {
+        "path": "assets/Lesson_11/readme.md",
+        "name": "readme.md"
+      }
+    ],
+    "java": [
+      {
+        "path": "assets/Lesson_11/BracketChecker.java",
+        "name": "BracketChecker.java"
+      },
+      {
+        "path": "assets/Lesson_11/PrintManager.java",
+        "name": "PrintManager.java"
+      },
+      {
+        "path": "assets/Lesson_11/QueueDemo.java",
+        "name": "QueueDemo.java"
+      },
+      {
+        "path": "assets/Lesson_11/StackDemo.java",
+        "name": "StackDemo.java"
+      },
+      {
+        "path": "assets/Lesson_11/UndoStack.java",
+        "name": "UndoStack.java"
+      }
+    ]
+  },
+  {
+    "folder": "Lesson_12",
+    "chapter": 10,
+    "images": [
+      {
+        "path": "assets/Lesson_12/01.png",
+        "name": "01.png"
+      }
+    ],
+    "notes": [
+      {
+        "path": "assets/Lesson_12/01_README.md",
+        "name": "01_README.md"
+      },
+      {
+        "path": "assets/Lesson_12/02_Understanding_Recursion_Factorial_Java.md",
+        "name": "02_Understanding_Recursion_Factorial_Java.md"
+      },
+      {
+        "path": "assets/Lesson_12/03_Filesystem_Traversal_Using_Recursion_in_Java.md",
+        "name": "03_Filesystem_Traversal_Using_Recursion_in_Java.md"
+      }
+    ],
+    "java": [
+      {
+        "path": "assets/Lesson_12/Countdown.java",
+        "name": "Countdown.java"
+      },
+      {
+        "path": "assets/Lesson_12/DirectoryTraversal.java",
+        "name": "DirectoryTraversal.java"
+      },
+      {
+        "path": "assets/Lesson_12/DirectoryTraversalRec.java",
+        "name": "DirectoryTraversalRec.java"
+      },
+      {
+        "path": "assets/Lesson_12/Factorial.java",
+        "name": "Factorial.java"
+      }
+    ]
+  },
+  {
+    "folder": "Lesson_13",
+    "chapter": 11,
+    "images": [],
+    "notes": [
+      {
+        "path": "assets/Lesson_13/readme.md",
+        "name": "readme.md"
+      }
+    ],
+    "java": [
+      {
+        "path": "assets/Lesson_13/CountX.java",
+        "name": "CountX.java"
+      },
+      {
+        "path": "assets/Lesson_13/DoubleArrays.java",
+        "name": "DoubleArrays.java"
+      },
+      {
+        "path": "assets/Lesson_13/FactorialBU.java",
+        "name": "FactorialBU.java"
+      },
+      {
+        "path": "assets/Lesson_13/FactorialTD.java",
+        "name": "FactorialTD.java"
+      },
+      {
+        "path": "assets/Lesson_13/Reverse.java",
+        "name": "Reverse.java"
+      }
+    ]
+  },
+  {
+    "folder": "Lesson_14",
+    "chapter": 12,
+    "images": [
+      {
+        "path": "assets/Lesson_14/01.png",
+        "name": "01.png"
+      },
+      {
+        "path": "assets/Lesson_14/02.png",
+        "name": "02.png"
+      },
+      {
+        "path": "assets/Lesson_14/03.png",
+        "name": "03.png"
+      },
+      {
+        "path": "assets/Lesson_14/04.png",
+        "name": "04.png"
+      },
+      {
+        "path": "assets/Lesson_14/05.png",
+        "name": "05.png"
+      },
+      {
+        "path": "assets/Lesson_14/06.png",
+        "name": "06.png"
+      },
+      {
+        "path": "assets/Lesson_14/07.png",
+        "name": "07.png"
+      },
+      {
+        "path": "assets/Lesson_14/08.png",
+        "name": "08.png"
+      },
+      {
+        "path": "assets/Lesson_14/09.png",
+        "name": "09.png"
+      },
+      {
+        "path": "assets/Lesson_14/10.png",
+        "name": "10.png"
+      },
+      {
+        "path": "assets/Lesson_14/11.png",
+        "name": "11.png"
+      },
+      {
+        "path": "assets/Lesson_14/12.png",
+        "name": "12.png"
+      }
+    ],
+    "notes": [
+      {
+        "path": "assets/Lesson_14/readme.md",
+        "name": "readme.md"
+      }
+    ],
+    "java": [
+      {
+        "path": "assets/Lesson_14/Fibonacci.java",
+        "name": "Fibonacci.java"
+      },
+      {
+        "path": "assets/Lesson_14/FibonacciMemo.java",
+        "name": "FibonacciMemo.java"
+      },
+      {
+        "path": "assets/Lesson_14/GreatestNum.java",
+        "name": "GreatestNum.java"
+      }
+    ]
+  },
+  {
+    "folder": "Lesson_15",
+    "chapter": 13,
+    "images": [
+      {
+        "path": "assets/Lesson_15/partition/01.png",
+        "name": "partition/01.png"
+      },
+      {
+        "path": "assets/Lesson_15/partition/02.png",
+        "name": "partition/02.png"
+      },
+      {
+        "path": "assets/Lesson_15/partition/03.png",
+        "name": "partition/03.png"
+      },
+      {
+        "path": "assets/Lesson_15/partition/04.png",
+        "name": "partition/04.png"
+      },
+      {
+        "path": "assets/Lesson_15/partition/05.png",
+        "name": "partition/05.png"
+      },
+      {
+        "path": "assets/Lesson_15/partition/06.png",
+        "name": "partition/06.png"
+      },
+      {
+        "path": "assets/Lesson_15/partition/07.png",
+        "name": "partition/07.png"
+      },
+      {
+        "path": "assets/Lesson_15/partition/08.png",
+        "name": "partition/08.png"
+      },
+      {
+        "path": "assets/Lesson_15/quicksort/01.png",
+        "name": "quicksort/01.png"
+      },
+      {
+        "path": "assets/Lesson_15/quicksort/02.png",
+        "name": "quicksort/02.png"
+      },
+      {
+        "path": "assets/Lesson_15/quicksort/03.png",
+        "name": "quicksort/03.png"
+      },
+      {
+        "path": "assets/Lesson_15/quicksort/04.png",
+        "name": "quicksort/04.png"
+      },
+      {
+        "path": "assets/Lesson_15/quicksort/05.png",
+        "name": "quicksort/05.png"
+      }
+    ],
+    "notes": [
+      {
+        "path": "assets/Lesson_15/readme.md",
+        "name": "readme.md"
+      }
+    ],
+    "java": [
+      {
+        "path": "assets/Lesson_15/QuickSortExample.java",
+        "name": "QuickSortExample.java"
+      }
+    ]
+  },
+  {
+    "folder": "Lesson_16",
+    "chapter": 14,
+    "images": [
+      {
+        "path": "assets/Lesson_16/01.png",
+        "name": "01.png"
+      },
+      {
+        "path": "assets/Lesson_16/02.png",
+        "name": "02.png"
+      },
+      {
+        "path": "assets/Lesson_16/03.png",
+        "name": "03.png"
+      },
+      {
+        "path": "assets/Lesson_16/04.png",
+        "name": "04.png"
+      },
+      {
+        "path": "assets/Lesson_16/05.png",
+        "name": "05.png"
+      },
+      {
+        "path": "assets/Lesson_16/06.png",
+        "name": "06.png"
+      },
+      {
+        "path": "assets/Lesson_16/07.png",
+        "name": "07.png"
+      },
+      {
+        "path": "assets/Lesson_16/10.png",
+        "name": "10.png"
+      }
+    ],
+    "notes": [
+      {
+        "path": "assets/Lesson_16/Java_Linked_Lists_Class_Notes.md",
+        "name": "Java_Linked_Lists_Class_Notes.md"
+      },
+      {
+        "path": "assets/Lesson_16/readme.md",
+        "name": "readme.md"
+      }
+    ],
+    "java": [
+      {
+        "path": "assets/Lesson_16/LinkedListDemo.java",
+        "name": "LinkedListDemo.java"
+      }
+    ]
+  }
+]

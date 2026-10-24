@@ -1,0 +1,11 @@
+{
+  "name": "java-dsa-lab",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "python3 serve.py",
+    "sync": "python3 scripts/sync_lessons.py",
+    "test": "node --test tests/*.test.js"
+  }
+}
