@@ -77,3 +77,22 @@ With linked lists, however, insertion at the beginning of the list takes just on
 once --> cat --> upon --> a --> time
 
 python3 dsa-lab/serve.py
+
+## Doubly Linked Lists
+
+A doubly linked list is like a linked list except that each node has two
+links—one that points to the next node and another that points to the previous
+node.
+
+```Table
+
+Custom LinkedList vs Built-in LinkedList
+
+We created a Node class	      ----------  Nodes are handled internally
+We wrote read(index)	        ---------- 	Use get(index)
+We wrote search(value) 	      ---------- 	Use indexOf(value)
+We wrote insert(index, value)	----------  Use add(index, value)
+We wrote delete(index) 	      ---------- 	Use remove(index)
+We wrote printList()	        ---------- 	Use System.out.println(list)
+We tracked only the head	    ---------- 	Java tracks head and tail
+```

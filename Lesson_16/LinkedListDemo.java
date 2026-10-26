@@ -15,7 +15,9 @@ class LinkedList {
   LinkedList(Node firstNode) {
     this.firstNode = firstNode; // this.firstNode = node1
     } 
+  
 
+  // Array reading O(1)
   // Reading O(N)
   String read(int index){ // index = 3
     if (index < 0){
@@ -39,7 +41,7 @@ class LinkedList {
 
   }
 
-
+  // Array seaching O(N)
   // Searching O(N)
   int search(String value){ // value = "time"
 
@@ -60,7 +62,7 @@ class LinkedList {
   }
 
 
-  // Insertion
+  // Insertion at beginning O(1) else O(N)
   void insert(int index, String value){ // 4, "green"
     if (index < 0){
       throw new IndexOutOfBoundsException();
@@ -91,8 +93,36 @@ class LinkedList {
 
   }
 
+  // Array deletion - O(1)
+  // Deletion - O(N)
+  void delete(int index) {  // index = 2, // firstNode = node1
+    if (index < 0 || firstNode == null){
+      throw new IndexOutOfBoundsException();
+    }
 
-  //Deletion
+    // Delete first node
+    if (index == 0){
+      firstNode = firstNode.nextNode;
+      return;
+    }
+
+    Node currentNode = firstNode; // currentNode = node1
+    int currentIndex = 0;         // currentIndex = 0
+
+    // Find the node before the deletion index
+    while (currentNode != null && currentIndex < index - 1) { // 1 < 1
+        currentNode = currentNode.nextNode; // currentNode = node2
+        currentIndex++;                     // currentIndex = 1
+    }
+
+    if (currentNode == null || currentNode.nextNode == null){
+      throw new IndexOutOfBoundsException();
+    }
+
+    currentNode.nextNode = currentNode.nextNode.nextNode;
+    // node2.nextNode = node4
+
+  }
 
 
   // Print All values
@@ -137,10 +167,15 @@ public class LinkedListDemo {
 
       // LinkedList colors = new LinkedList(new Node("blue"));
 
-      words.insert(4, "green");
-      words.insert(5, "red");
+      words.insert(4, "in");
+      words.insert(5, "LinkedList");
 
       System.out.println("New Words");
+      words.printList();
+
+      words.delete(2);
+
+      System.out.println("After deleting index 2: a");
       words.printList();
 
   }
