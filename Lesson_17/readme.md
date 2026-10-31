@@ -34,3 +34,27 @@ The algorithm for searching within a binary search tree is as follows:
 ## Deletion
 
 ### Deleting a Node with Two Children
+
+## Binary Search Tree Traversal
+
+### inorder traversal
+
+1. Call itself (traverse) recursively on the node’s left child. The function will
+   keep getting called until we hit a node that does not have a left child.
+2. Visit the node.
+3. Call itself (traverse) recursively on the node’s right child. The function will
+   keep getting called until we hit a node that does not have a right child.
+
+## Understanding BST Big-O
+
+BST performance depends on tree height, not simply the number of elements.
+
+```
+                    Moby Dick
+                   /         \
+     Great Expectations     Robinson Crusoe
+       /          \           /           \
+ Alice in       Lord of    Pride and    The Odyssey
+ Wonderland     the Flies  Prejudice
+
+```
