@@ -44,3 +44,20 @@ Graphs are widely used in applications such as social networks, Google Maps, fli
 - BFS (Breadth-First Search) is a graph traversal algorithm that explores all the vertices of a graph in breadthward motion. It starts from a selected node (source) and explores all its neighbors before moving on to the next level of neighbors.
 
 - DFS (Depth-First Search) is another graph traversal algorithm that explores as far as possible along each branch before backtracking. It starts from a selected node (source) and explores one neighbor, then continues to explore deeper into the graph until it reaches a dead end, at which point it backtracks to explore other neighbors.
+
+## Big-O
+
+O(1) = Constant work Accessing a known vertex's neighbor set
+O(N) = Work grows with N Checking N items one by one
+O(V + E) = Work grows with vertices and edges DFS and BFS traversal
+
+V = Vertices: Number of nodes in the graph.
+E = Edges: Number of connections between vertices.
+
+5 vertices: A, B, C, D, E.
+4 edges: A–B, A–C, B–D, C–E.
+
+## Cynthia, Bob, Alice, Fed, Elise, Diana.
+
+6 vertices
+7 Edges
