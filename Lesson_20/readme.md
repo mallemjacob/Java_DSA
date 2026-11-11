@@ -61,3 +61,17 @@ E = Edges: Number of connections between vertices.
 
 6 vertices
 7 Edges
+
+## graph databases - Neo4j
+
+facebook
+linkedin
+
+# Shortest path using BFS
+
+# Weighted graphs
+
+# Djikstra's algorithm
+
+time complexity
+space complexity
